@@ -2,8 +2,7 @@ package com.info.nonaccessmodifiers;
 
 abstract class shape_demo{
 	
-	abstract void draw(); //declaration or functionality
-		
+	abstract void draw(); 		
 }
 
 class pentagon extends shape_demo{
@@ -18,7 +17,6 @@ public class Abstraction {
 		
 		shape_demo s =new pentagon();
 		s.draw();
-		// TODO Auto-generated method stub
 
 	}
 

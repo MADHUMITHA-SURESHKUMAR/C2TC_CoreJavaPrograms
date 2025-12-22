@@ -70,7 +70,6 @@ class Science extends Subject{
 	}
 }
 
-
 interface A{
 	
 }
@@ -108,8 +107,6 @@ public class Inheritance {
 		Science s = new Science();
 		s.allSubject();
 		s.onlyScience();
-	
-		
 	}
 
 }

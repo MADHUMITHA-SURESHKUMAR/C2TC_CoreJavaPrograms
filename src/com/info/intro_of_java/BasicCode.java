@@ -10,11 +10,11 @@ public class BasicCode {
 		char grade = 'A';
 		
 		
-		double newSalary = age; //Implicit or internal conversion - Data widening
+		double newSalary = age; 
 		
-		int roundSalary = (int)salary; // Explicit or External - Data Narrowing
+		int roundSalary = (int)salary; 
 		
-		//Arithmetic operation
+	
 		int increment = 3000;
 		
 		int total = roundSalary + increment;

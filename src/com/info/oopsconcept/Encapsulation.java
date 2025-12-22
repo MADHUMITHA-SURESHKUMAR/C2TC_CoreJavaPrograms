@@ -37,8 +37,6 @@ public class Encapsulation {
 	public void setrole(String role) {
 		this.role = role;
 	}
-
-	@Override
 	public String toString() {
 		return "EncapsulationDemo [name=" + name + ", age=" + age + ", jersyNo=" + jersyNo + "role=" + role +"]";
 	}
