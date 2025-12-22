@@ -44,7 +44,6 @@ class Parent extends GrandParent{
 	}
 	
 }
-
 class Child1 extends Parent{
 	
 	void c() {

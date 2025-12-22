@@ -8,13 +8,17 @@ public class BasicCode {
 		double salary = 30000.00;
 		boolean isPassed = true;
 		char grade = 'A';
-			
-		double newSalary = age; 
 		
-		int roundSalary = (int)salary; 
 		
+		double newSalary = age; //Implicit or internal conversion - Data widening
+		
+		int roundSalary = (int)salary; // Explicit or External - Data Narrowing
+		
+		//Arithmetic operation
 		int increment = 3000;
+		
 		int total = roundSalary + increment;
+		
 		
 		System.out.println(age);
 		System.out.println(salary);
@@ -22,4 +26,5 @@ public class BasicCode {
 		System.out.println(total);
 
 	}
+
 }

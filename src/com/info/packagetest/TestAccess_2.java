@@ -1,12 +1,12 @@
 package com.info.packagetest;
 
-import com.info.packagetest.AccessModifiersDemo;
+import com.info.packagetest.AccessModifiers;
 
 public class TestAccess_2 {
 
 	public static void main(String[] args) {
 		
-		AccessModifiersDemo amd = new AccessModifiersDemo();
+		AccessModifiers amd = new AccessModifiers();
 		
 		System.out.println("Public Variable: "+amd.publicVar);
 		//System.out.println("Protected Variable: "+amd.protectedvar);

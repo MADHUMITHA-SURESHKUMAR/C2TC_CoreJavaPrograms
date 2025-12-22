@@ -20,5 +20,4 @@ public class AccessModifiers {
 		amd.showDetails();
 
 	}
-
 }

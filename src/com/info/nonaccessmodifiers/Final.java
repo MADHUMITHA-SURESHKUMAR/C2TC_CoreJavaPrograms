@@ -17,6 +17,7 @@ public class Final {
         fe.print();
     }
 }
+
 class Example extends Final {
-   
+    // No print() method here
 }

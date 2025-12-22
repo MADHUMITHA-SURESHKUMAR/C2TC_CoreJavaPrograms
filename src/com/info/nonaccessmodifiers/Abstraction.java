@@ -2,7 +2,7 @@ package com.info.nonaccessmodifiers;
 
 abstract class shape_demo{
 	
-	abstract void draw(); 
+	abstract void draw(); //declaration or functionality
 		
 }
 
@@ -18,6 +18,8 @@ public class Abstraction {
 		
 		shape_demo s =new pentagon();
 		s.draw();
+		// TODO Auto-generated method stub
+
 	}
 
 }
