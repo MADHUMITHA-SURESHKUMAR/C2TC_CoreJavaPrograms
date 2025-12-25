@@ -9,7 +9,7 @@ class InvalidBalanceException extends Exception {
 public class CustomException {
 
     static void withdraw(int balance) throws InvalidBalanceException {
-        if (balance < 1000) {
+        if (balance < 3000) {
             throw new InvalidBalanceException("Insufficient balance");
         }
         System.out.println("Withdrawal successful");
@@ -17,7 +17,7 @@ public class CustomException {
 
     public static void main(String[] args) {
         try {
-            withdraw(500);
+            withdraw(1000);
         } catch (InvalidBalanceException e) {
             System.out.println(e.getMessage());
         }
